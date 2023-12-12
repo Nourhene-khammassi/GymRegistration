@@ -1,0 +1,12 @@
+<div class="quiz-solution-container">
+    <!-- Autres parties de votre code -->
+
+    <div class="form-group">
+        <label for="userResponse">Your Answer</label>
+        <input type="text" class="form-control" id="userResponse" [(ngModel)]="responseUser"
+            placeholder="Enter your answer">
+    </div>
+    <button mat-raised-button class="btn btn-success" (click)="emitResponse()">Submit Answer</button>
+
+
+</div>

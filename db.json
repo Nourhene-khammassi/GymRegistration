@@ -1,0 +1,351 @@
+{
+  "registered": [
+    {
+      "firstName": "Harish",
+      "lastName": "Manle",
+      "email": "harish@gmail.com",
+      "mobile": 98987676,
+      "weight": 60,
+      "height": 1.9,
+      "bmi": 16.62049861495845,
+      "bmiResult": "Underweight",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Quarterly",
+      "important": [
+        "Building Lean Muscle",
+        "Healthier Digestive System",
+        "Fitness"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-02-05T16:00:00.000Z",
+      "id": 3
+    },
+    {
+      "firstName": "Sachin",
+      "lastName": "Singh",
+      "email": "sachin@gmail.com",
+      "mobile": 87876765,
+      "weight": 50,
+      "height": 1.64,
+      "bmi": 18.590124925639504,
+      "bmiResult": "Normal",
+      "gender": "Male",
+      "requireTrainer": "No",
+      "package": "Yearly",
+      "important": [
+        "Building Lean Muscle",
+        "Healthier Digestive System",
+        "Sugar Craving Body"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-02-12T16:00:00.000Z",
+      "id": 4
+    },
+    {
+      "firstName": "SashiKumar",
+      "lastName": "Yadav",
+      "email": "yshashi30@gmail.com",
+      "mobile": 9930543857,
+      "weight": 72,
+      "height": 1.9,
+      "bmi": 21,
+      "bmiResult": "Good",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Quarterly",
+      "important": [
+        "Toxic Fat reduction",
+        "Energy and Endurance",
+        "Building Lean Muscle"
+      ],
+      "haveGymBefore": "No",
+      "enquiryDate": "2023-02-18T16:00:00.000Z",
+      "id": 1
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "John@gmail.com",
+      "mobile": 8989767656,
+      "weight": 76,
+      "height": 1.9,
+      "bmi": 21.05263157894737,
+      "bmiResult": "Normal",
+      "gender": "Male",
+      "requireTrainer": "No",
+      "package": "Monthly",
+      "important": [
+        "Energy and Endurance",
+        "Building Lean Muscle",
+        "Healthier Digestive System"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-02-20T16:00:00.000Z",
+      "id": 2
+    },
+    {
+      "firstName": "Harish",
+      "lastName": "Manle",
+      "email": "harish@gmail.com",
+      "mobile": 98987676,
+      "weight": 60,
+      "height": 1.9,
+      "bmi": 16.62049861495845,
+      "bmiResult": "Underweight",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Quarterly",
+      "important": [
+        "Building Lean Muscle",
+        "Healthier Digestive System",
+        "Fitness"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-02-05T16:00:00.000Z",
+      "id": 3
+    },
+    {
+      "firstName": "Sachin",
+      "lastName": "Singh",
+      "email": "sachin@gmail.com",
+      "mobile": 87876765,
+      "weight": 50,
+      "height": 1.64,
+      "bmi": 18.590124925639504,
+      "bmiResult": "Normal",
+      "gender": "Male",
+      "requireTrainer": "No",
+      "package": "Yearly",
+      "important": [
+        "Building Lean Muscle",
+        "Healthier Digestive System",
+        "Sugar Craving Body"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-02-12T16:00:00.000Z",
+      "id": 4
+    },
+    {
+      "firstName": "SashiKumar",
+      "lastName": "Yadav",
+      "email": "yshashi30@gmail.com",
+      "mobile": 9930543857,
+      "weight": 72,
+      "height": 1.9,
+      "bmi": 21,
+      "bmiResult": "Good",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Quarterly",
+      "important": [
+        "Toxic Fat reduction",
+        "Energy and Endurance",
+        "Building Lean Muscle"
+      ],
+      "haveGymBefore": "No",
+      "enquiryDate": "2023-02-18T16:00:00.000Z",
+      "id": 1
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "John@gmail.com",
+      "mobile": 8989767656,
+      "weight": 76,
+      "height": 1.9,
+      "bmi": 21.05263157894737,
+      "bmiResult": "Normal",
+      "gender": "Male",
+      "requireTrainer": "No",
+      "package": "Monthly",
+      "important": [
+        "Energy and Endurance",
+        "Building Lean Muscle",
+        "Healthier Digestive System"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-02-20T16:00:00.000Z",
+      "id": 2
+    },
+    {
+      "firstName": "Harish",
+      "lastName": "Manle",
+      "email": "harish@gmail.com",
+      "mobile": 98987676,
+      "weight": 60,
+      "height": 1.9,
+      "bmi": 16.62049861495845,
+      "bmiResult": "Underweight",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Quarterly",
+      "important": [
+        "Building Lean Muscle",
+        "Healthier Digestive System",
+        "Fitness"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-02-05T16:00:00.000Z",
+      "id": 3
+    },
+    {
+      "firstName": "Sachin",
+      "lastName": "Singh",
+      "email": "sachin@gmail.com",
+      "mobile": 87876765,
+      "weight": 50,
+      "height": 1.64,
+      "bmi": 18.590124925639504,
+      "bmiResult": "Normal",
+      "gender": "Male",
+      "requireTrainer": "No",
+      "package": "Yearly",
+      "important": [
+        "Building Lean Muscle",
+        "Healthier Digestive System",
+        "Sugar Craving Body"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-02-12T16:00:00.000Z",
+      "id": 4
+    },
+    {
+      "firstName": "niii",
+      "lastName": "ooo",
+      "email": "Khamessinourhen@gmail.com",
+      "mobile": "29490018",
+      "weight": 2,
+      "height": 4,
+      "bmi": 0.125,
+      "bmiResult": "Underweight",
+      "gender": "Female",
+      "requireTrainer": "Yes",
+      "package": "Yearly",
+      "important": [
+        "Sugar Craving Body"
+      ],
+      "haveGymBefore": "No",
+      "enquiryDate": "2023-12-20T23:00:00.000Z",
+      "id": 5
+    },
+    {
+      "firstName": "ahmed",
+      "lastName": "ben mousa",
+      "email": "ahmed@gmail.com",
+      "mobile": 23456782,
+      "weight": 14,
+      "height": 6,
+      "bmi": 0.3888888888888889,
+      "bmiResult": "Underweight",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Monthly",
+      "important": [
+        "Building Lean Muscle",
+        "Healthier Digestive System",
+        "Fitness"
+      ],
+      "haveGymBefore": "No",
+      "enquiryDate": "2023-12-20T23:00:00.000Z",
+      "id": 6
+    },
+    {
+      "firstName": "Nourhene",
+      "lastName": "khammassi",
+      "email": "Khamessinourhen@gmail.com",
+      "mobile": "+21629490018",
+      "weight": 7,
+      "height": 5,
+      "bmi": 0.28,
+      "bmiResult": "Underweight",
+      "gender": "Female",
+      "requireTrainer": "Yes",
+      "package": "Yearly",
+      "important": [
+        "Healthier Digestive System"
+      ],
+      "haveGymBefore": "No",
+      "enquiryDate": "2023-12-19T23:00:00.000Z",
+      "id": 7
+    },
+    {
+      "firstName": "daliiiiiiiiiii",
+      "lastName": "med",
+      "email": "med@gmail.com",
+      "mobile": "+21629490018",
+      "weight": 15,
+      "height": 22,
+      "bmi": 0.030991735537190084,
+      "bmiResult": "Underweight",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Monthly",
+      "important": [
+        "Fitness"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-12-26T23:00:00.000Z",
+      "id": 8
+    },
+    {
+      "firstName": "xcdc",
+      "lastName": "dddddddd",
+      "email": "Khamessinourhen@gmail.com",
+      "mobile": "22223331",
+      "weight": 2,
+      "height": 5,
+      "bmi": 0.08,
+      "bmiResult": "Underweight",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Quarterly",
+      "important": [
+        "Toxic Fat reduction",
+        "Energy and Endurance"
+      ],
+      "haveGymBefore": "No",
+      "enquiryDate": "2023-12-28T23:00:00.000Z",
+      "id": 9
+    },
+    {
+      "firstName": "nour",
+      "lastName": "khammassi",
+      "email": "Khamessinourhen@gmail.com",
+      "mobile": "+21629490018",
+      "weight": 6,
+      "height": 5,
+      "bmi": 0.24,
+      "bmiResult": "Underweight",
+      "gender": "Female",
+      "requireTrainer": "No",
+      "package": "Monthly",
+      "important": [
+        "Fitness"
+      ],
+      "haveGymBefore": "No",
+      "enquiryDate": "2023-12-10T23:00:00.000Z",
+      "id": 10
+    }
+  ],
+  "payment": [
+    {
+      "user": "10",
+      "paid": true,
+      "month": "February",
+      "id": 1
+    },
+    {
+      "user": "10",
+      "paid": true,
+      "month": "April",
+      "id": 2
+    },
+    {
+      "user": "10",
+      "paid": false,
+      "month": "October",
+      "id": 3
+    }
+  ]
+}

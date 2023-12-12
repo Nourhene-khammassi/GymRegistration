@@ -1,0 +1,57 @@
+/* quiz-solution.component.scss */
+
+.quiz-solution-container {
+    background-color: #f8f9fa;
+    /* Light gray background color */
+    border: 1px solid #dee2e6;
+    /* Border color */
+    border-radius: 5px;
+    /* Rounded corners */
+    padding: 20px;
+    /* Padding inside the container */
+    margin-bottom: 20px;
+    /* Margin at the bottom to create space between containers */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Box shadow for a subtle lift effect */
+}
+
+h3 {
+    font-size: 20px;
+    /* Heading font size */
+    margin-bottom: 10px;
+    /* Margin below the heading */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    /* Margin below the form group */
+}
+
+label {
+    font-weight: bold;
+    /* Bold font for the label */
+}
+
+input {
+    width: 100%;
+    /* Full width for the input */
+    padding: 8px;
+    /* Padding inside the input */
+    box-sizing: border-box;
+    /* Include padding and border in the total width/height */
+}
+
+button {
+    background-color: #007bff;
+    /* Bootstrap's primary button color */
+    color: #fff;
+    /* Text color for the button */
+    padding: 10px 15px;
+    /* Padding inside the button */
+    border: none;
+    /* Remove default button border */
+    border-radius: 3px;
+    /* Rounded corners for the button */
+    cursor: pointer;
+    /* Cursor style on hover */
+}

@@ -1,0 +1,51 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.example-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  align-items: flex-start;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  /* Taille de la police pour le message d'erreur */
+  /* Autres styles que vous souhaitez appliquer aux messages d'erreur */
+}
+
+/* Style pour le cadre de l'input en rouge lorsqu'il est invalide */
+::ng-deep .mat-form-field.mat-form-field-invalid .mat-form-field-outline {
+  color: red;
+  /* Couleur du cadre en rouge */
+  border-color: red;
+  /* Couleur du cadre en rouge */
+}
+
+/* Style pour le message d'erreur en rouge */
+.error-message {
+  color: red;
+  font-size: 12px;
+  /* Taille de la police pour le message d'erreur */
+  /* Autres styles que vous souhaitez appliquer aux messages d'erreur */
+}
+
+.full-width {
+
+  /* Largeur de l'écran */
+  /* Hauteur de l'écran */
+  object-fit: cover;
+  /* Ajuste l'image pour remplir la zone */
+  object-position: center;
+  /* Centre l'image horizontalement et verticalement */
+}

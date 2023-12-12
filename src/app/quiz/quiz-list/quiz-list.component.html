@@ -1,0 +1,21 @@
+<!-- Add this to your quiz-list.component.html file -->
+
+<div class="quiz-container" *ngFor="let quiz of quizzes; let i = index">
+    <h3 class="quiz-question">{{ quiz.question }}</h3>
+
+
+    <app-quiz-solution [questionUser]="quiz.question" (responseEmitter)="comparerResultat(i,$event)">
+        [result]="quiz.res"
+    </app-quiz-solution>
+    <p class="quiz-message">{{ quiz.message }}</p>
+    <button mat-raised-button class="btn btn-success m-4" (click)="showAnswer(i)">Show Answer</button>
+
+    <p *ngIf="showAnswerForIndex === i" class="answer">{{ quiz.response }}</p>
+
+
+
+</div>
+<div class="quiz-container">
+    <button class="btn btn-primary" (click)="CountResultat()">Resultat</button>
+    <p class="answer">Count Result: {{ count }}</p>
+</div>

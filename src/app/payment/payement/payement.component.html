@@ -1,0 +1,62 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <form [formGroup]="paymentForm" (ngSubmit)="makePayment()">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        Make Payment
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="userName">User Name:</label>
+                            <select formControlName="user" class="form-control"
+                                (change)="getPaymentsForUser(paymentForm.get('user')?.value)" required>
+                                <option *ngFor="let user of users" [value]="user.id">
+                                    {{ user.firstName }} {{ user.lastName }}
+                                </option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="month">Month:</label>
+                            <select formControlName="month" class="form-control" required>
+                                <option *ngFor="let month of months" [value]="month">{{ month }}</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" formControlName="paid" class="form-check-input">
+                            <label class="form-check-label" for="paid">Paid</label>
+                        </div>
+                    </div>
+                    <div class="card-footer text-right">
+                        <button type="submit" class="btn btn-primary">Make Payment</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    Paid Months
+                </div>
+                <div class="card-body">
+                    <p>{{ paidMonthsText }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-danger text-white">
+                    Unpaid Months
+                </div>
+                <div class="card-body">
+                    <p>{{ unpaidMonthsText }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
